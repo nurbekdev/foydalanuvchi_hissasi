@@ -1,14 +1,14 @@
-# gitartwork on user's contribution graph
+# nurbekdev foydalanuvchi hissasi grafigida
 
-gitartwork on user's contribution graph, make a SVG image of it and finally push it back to your repository.
+foydalanuvchi hissasi grafigida nurbekdev qiling, uning SVG tasvirini yarating va nihoyat uni omboringizga qaytaring.
 
-An example result:
-[![jasineri/gitartwork](gitartwork.svg)](https://github.com/jasineri/gitartwork)
+Natijaga misol:
+[![nurbekdev/n](gitartwork.svg)](https://github.com/nurbekdev/n)
 
-## Usage:
+## Foydalanish:
 
-### Option #1: Use gitartwork as a GitHub Action
-1. Copy the workflow code into a `.github/workflows/gitartwork.yml` file in your repository.
+### Variant №1: nurbekdevdan GitHub harakati sifatida foydalaning
+1. Ish jarayoni kodini omboringizdagi `.github/workflows/gitartwork.yml` fayliga nusxalang.
 
         name: gitartwork from a contribution graph
         on: 
@@ -25,13 +25,11 @@ An example result:
               - uses: jasineri/gitartwork@v1
                 with:
                    # Use this username's contribution graph  
-                   user_name: jasineri
+                   user_name: nurbek
                    # Text on contribution graph 
-                   text: JASINERI
+                   text: nurbek
               - uses: jasineri/simple-push-action@v1
 
-2. A few moments later it will generate `gitartwork.svg` image in your repository, so then you can include it in your `README.md` like `![gitartwork](gitartwork.svg)`
-3. Have fun :)
+2.Bir necha daqiqadan so'ng u sizning omboringizda `gitartwork.svg` tasvirini yaratadi, shuning uchun uni `![gitartwork](gitartwork.svg)` kabi `README.md` ga qo`shishingiz mumkin.
+3. Bahra oling; vaqtni chog 'o'tkazing :)
 
-### Option #2: Make gitartwork locally on your environment
-Still in progress...
