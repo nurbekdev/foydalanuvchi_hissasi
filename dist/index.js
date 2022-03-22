@@ -67,7 +67,7 @@ const generateSvg = (siteSource, text, svgFileName) => {
     svgElement.attr("height", (svgHeight * 8 + 20).toString());
     $(".js-calendar-graph-svg text").remove();
     svgElement.prepend("<style></style>");
-    svgElement.append('<a href="https://github.com/jasineri/gitartwork"><text x="24" y="' +
+    svgElement.append('<a href="https://github.com/nurbekdev"><text x="24" y="' +
         (svgHeight * 7 + 27).toString() +
         '" font-size="0.6em" fill="blue">Nurbekdev tomonidan yaratilgan </text></a>');
     let styleElement = $(".js-calendar-graph-svg style");
