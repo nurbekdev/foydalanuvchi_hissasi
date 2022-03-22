@@ -31,5 +31,6 @@ Natijaga misol:
               - uses: jasineri/simple-push-action@v1
 
 2.Bir necha daqiqadan so'ng u sizning omboringizda `gitartwork.svg` tasvirini yaratadi, shuning uchun uni `![gitartwork](gitartwork.svg)` kabi `README.md` ga qo`shishingiz mumkin.
+
 3. Bahra oling; vaqtni chog 'o'tkazing :)
 
