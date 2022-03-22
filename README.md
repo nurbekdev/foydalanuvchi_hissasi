@@ -21,14 +21,15 @@ Natijaga misol:
             name: Make gitartwork SVG
             runs-on: ubuntu-latest
             steps:
-              - uses: actions/checkout@v2
-              - uses: jasineri/gitartwork@v1
+              - uses: nurbekdev
+              - uses: nurbekdev
                 with:
                    # Use this username's contribution graph  
                    user_name: nurbek
                    # Text on contribution graph 
                    text: nurbek
-              - uses: jasineri/simple-push-action@v1
+              - uses: nurbek
+
 
 2.Bir necha daqiqadan so'ng u sizning omboringizda `gitartwork.svg` tasvirini yaratadi, shuning uchun uni `![gitartwork](gitartwork.svg)` kabi `README.md` ga qo`shishingiz mumkin.
 
